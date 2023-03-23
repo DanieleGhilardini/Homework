@@ -1,0 +1,32 @@
+body {
+  font-family: Alkatra;
+  background-image: linear-gradient(to bottom left, green, lightblue);
+  text-align: left;
+}
+
+img {
+  border-radius: 100%;
+  border: 10px solid blueviolet;
+}
+
+h1 {
+  color: darkred;
+  font-size: 4rem;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+h3 {
+  color: blue;
+}
+
+h4 {
+  color: darkgreen;
+}
+
+#privacy {
+  color: grey;
+  text-align: center;
+}
