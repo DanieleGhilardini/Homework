@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="subscription.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap"
+      rel="stylesheet"
+    />
+    <title>Iscrizione Academy Blazar</title>
+  </head>
+  <body>
+    <h1>Iscriviti alla Academy Blazar!</h1>
+    <form>
+      <fieldset>
+        <legend>Dati Personali</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="name" placeholder="Mario" />
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="surname" placeholder="Rossi" />
+        <br />
+        <br />
+        <label for="telefono">Telefono: +39</label>
+        <input
+          type="text"
+          id="telefono"
+          name="phone number"
+          placeholder="6666666666"
+        />
+        <label for="email">E-Mail</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="mario.rossi@gmail.com"
+        />
+        <br />
+        <br />
+        <label for="CV">Curriculum Vitae:</label>
+        <input type="file" id="CV" name="Curriculum Vitae" />
+      </fieldset>
+      <fieldset>
+        <legend>Conoscenze Pregresse</legend>
+        <label for="inglese">Inglese:</label>
+        <input type="range" id="inglese" name="english" />
+        <br />
+        <br />
+        <label for="C#">C#:</label>
+        <input type="range" id="C#" name="C Sharp" />
+        <br />
+        <br />
+        <label for="Database">Database:</label>
+        <input type="range" id="Database" name="Database" />
+        <br />
+        <br />
+        <label for="FrontEnd">HTML, CSS & Javascript:</label>
+        <input type="range" id="FrontEnd" name="HTML, CSS & Javascript" />
+      </fieldset>
+      <fieldset>
+        <legend>Privacy</legend>
+        <label for="privacy">
+          Ho letto e accettato l'informativa sulla privacy:
+        </label>
+        <input type="checkbox" id="privacy" name="Privacy" />
+      </fieldset>
+      <br />
+      <button type="reset">Resetta</button>
+      <button type="submit">Invia</button>
+    </form>
+  </body>
+</html>

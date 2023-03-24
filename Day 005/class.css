@@ -1,0 +1,29 @@
+body {
+  background-image: url(./assets/BG_Class.jpg);
+  background-repeat: repeat;
+  font-family: Alkatra;
+  text-align: center;
+}
+
+h1 {
+  font-family: Fasthand;
+  color: darkred;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  color: darkblue;
+  background-image: linear-gradient(to bottom left, lightblue, darkviolet);
+  border-radius: 20px;
+  border-color: brown;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-image: linear-gradient(to right, aqua, violet);
+}
+
+thead {
+  color: crimson;
+}
