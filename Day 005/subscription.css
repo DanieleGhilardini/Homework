@@ -10,17 +10,31 @@ h1 {
   color: darkred;
 }
 
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 fieldset {
   border-radius: 50px;
   background-color: cornsilk;
 }
 
 legend {
-  color: lightskyblue;
+  color: darkred;
+}
+
+#buttons {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button {
   background-color: blueviolet;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
   border-radius: 10px;
   color: aqua;
 }
