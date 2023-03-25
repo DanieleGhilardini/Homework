@@ -1,3 +1,49 @@
 body {
-  background-color: red;
+  font-family: "Open Sans", sans-serif;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#portrait {
+  width: 600px;
+}
+
+.description {
+  background-color: #ff4e5a;
+  color: white;
+  width: 600px;
+  text-align: center;
+}
+.description > h2 {
+  font-size: 5rem;
+  margin: 50px;
+}
+
+.description > #title {
+  font-size: 2.5rem;
+  margin: 50px;
+}
+
+.description > p {
+  font-size: 1.5rem;
+  margin: 50px;
+  line-height: 40px;
+}
+
+#freepik {
+  color: white;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+}
+
+#links > a > img {
+  height: 50px;
+  margin: 20px;
 }
