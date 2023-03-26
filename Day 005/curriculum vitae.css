@@ -8,7 +8,6 @@ body {
 }
 
 body > div {
-  border: 5px solid black;
   display: flex;
   flex-direction: column;
 }
