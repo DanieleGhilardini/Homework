@@ -7,10 +7,11 @@ body {
   font-size: larger;
 }
 
-body > div {
+body > div, body > address, body > section {
   border: 5px solid black;
-  display: flex;
-  flex-direction: column;
+  /* a meno che non devi distribuire verticalmente in modo particolare gli elementi, rimani con il normal flow, non c'è bisogno di flexbox */
+  /* display: flex;
+  flex-direction: column; */
 }
 
 img {

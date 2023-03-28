@@ -1,37 +1,83 @@
+:root {
+  --inner-section-min-width: 350px;
+  --inner-section-flex: 1 1 50%;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  margin-top: 50px;
 }
 
 #main {
+  /* display: flex; questo complica il layout
+  flex-wrap: wrap;
+  justify-content: center; */
+  max-width: 1080px; /* questo impedisce al contenuto di diventare eccessivamente grandi su schermi grandi */
+  margin: 0 auto; /* questo centra il contenuto */
+  padding-inline: 2rem; /* shorthand per padding-left e padding-right*/
+}
+
+/* #main > div {
+  border-top: 0px;
+  border-bottom: 0px; i div di default non hanno nessun border
+} */
+
+#top {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 #portrait {
-  width: 600px;
+  flex: var(--inner-section-flex);
+  min-width: var(--inner-section-min-width);
+  background-color: rgb(227, 227, 227);
+  object-fit: cover; /* questa proprietà permette all'immagine di estendersi per coprire il suo contenitore mantenendo la aspect-ratio originale*/
 }
 
 .description {
   background-color: #ff4e5a;
   color: white;
-  width: 600px;
+  flex: var(--inner-section-flex);
+  min-width: var(--inner-section-min-width);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* max-height: 850px;  come mai questa max-height? Senza ottengo una grafica più simile all'originale */
 }
+
+.description2 {
+  background-color: #ff4e5a;
+  color: white;
+  flex: var(--inner-section-flex);
+  min-width: var(--inner-section-min-width);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .description > h2 {
   font-size: 5rem;
+  margin: 2rem;
+}
+
+.description2 > h3 {
+  font-size: 3rem;
   margin: 50px;
 }
 
 .description > #title {
   font-size: 2.5rem;
-  margin: 50px;
+  margin: 2rem;
 }
 
 .description > p {
   font-size: 1.5rem;
-  margin: 50px;
-  line-height: 40px;
+  margin: 2rem;
+  line-height: 1.7; /* 2rem di line height va bene per il p con font-size piccola, ma non per quello più grande. Meglio un valore relativo alla font-size */
 }
 
 #freepik {
@@ -46,4 +92,95 @@ body {
 #links > a > img {
   height: 50px;
   margin: 20px;
+}
+
+#bottom {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(227, 227, 227);
+  flex: var(--inner-section-flex);
+  min-width: var(--inner-section-min-width);
+  text-align: center;
+}
+
+.upcase {
+  font-size: 2rem;
+  margin-bottom: 0px;
+  line-height: 35px;
+}
+
+.lowcase {
+  font-size: 1.5rem;
+  margin-top: 0px;
+  line-height: 35px;
+}
+
+.stats > div {
+  flex: 1 1 50%;
+  min-width: 150px;
+}
+
+.upcase2 {
+  color: #808080;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.numbers {
+  color: #ff4e5a;
+  font-size: 7rem;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+/* @media (min-width: 1215px) {
+  .stats > div {
+    min-width: 300px;
+  }
+
+  #bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .numbers {
+    margin-bottom: 120px;
+  }
+
+  .upcase2 {
+    margin-top: 100px;
+  }
+} */
+
+#footer {
+  background-color: #333333;
+  color: white;
+  margin-top: 50px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#footer > p > a {
+  color: #b9d6ff;
+}
+
+#footer > p > a:hover {
+  color: #808080;
+  text-decoration: none;
 }

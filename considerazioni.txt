@@ -1,0 +1,63 @@
+L'attributo name degli elementi input serve come chiave a cui associare un valore quando si fa il form submit, 
+quindi tendenzialmente non si usano caratteri speciali o spazi.
+
+Di norma ci deve essere un solo heading dello stesso livello per sezione.
+Inoltre gli heading rappresentano dei titoli. Detto ciò, spesso è difficile stabilire il ruolo di un elemento in un sito o un'applicazione...
+
+Per quanto riguarda il sito, 
+
+c'è un errore nell'html,
+il primo div#top non si chiude
+
+
+è un po' troppo grande. 
+Considera che nella versione originale ad una risoluzione di 1080px di larghezza il contenuto ancora non inizia ad andare a capo.
+Inoltre penso che potresti usare elementi più semantici e usare gli id con delle descrizioni più precise (es <p id="title"> non va bene)
+
+ad es.:
+main
+article
+header
+section
+footer
+h1 - h6 
+etc.
+
+Quando vedi del css che si ripete valuta di utilizzare una variabile css o un selector che selezioni più elementi contemporaneamente
+
+Personalmente, avrei usato grid, o flex ma con elementi flex-basis 50%. Avrebbe reso l'html più semplice da strutturare
+
+con flex 
+<div flexContainer>
+  <div></div>
+  <div></div>
+</div>
+<div flexContainer>
+  <div></div>
+  <div></div>
+</div>
+
+con grid 
+<div gridContainer>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+con flex + flex-basis 50%
+<div flexContainer>
+  <div flexBasis=50%></div>
+  <div flexBasis=50%></div>
+  <div flexBasis=50%></div>
+  <div flexBasis=50%></div>
+</div>
+
+Quando usi flex preferisci le proprietà flex-grow, flex-shrink e flex-basis a width.
+
+la min-width dei 4 riquadri è un po' troppo larga... conta che alcuni telefoni scendono fino a 350px di larghezza. 
+Con 600px siamo nel mondo dei tablet piccoli o smartphone larghi.
+
+
+Graficamente hai fatto un'ottimo lavoro! L'aspetto è praticamente identico.
+Continua a lavorarci per migliorare la leggibilità e la struttura sia del css che dell'html 
