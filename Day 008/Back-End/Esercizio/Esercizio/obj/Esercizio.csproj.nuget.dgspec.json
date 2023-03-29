@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Daniele\\Desktop\\Homework\\Day 007\\Back-End\\First_App\\First_App\\First_App.csproj": {}
+    "D:\\Users\\Daniele\\Desktop\\Homework\\Day 008\\Back-End\\Esercizio\\Esercizio\\Esercizio.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Daniele\\Desktop\\Homework\\Day 007\\Back-End\\First_App\\First_App\\First_App.csproj": {
+    "D:\\Users\\Daniele\\Desktop\\Homework\\Day 008\\Back-End\\Esercizio\\Esercizio\\Esercizio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Daniele\\Desktop\\Homework\\Day 007\\Back-End\\First_App\\First_App\\First_App.csproj",
-        "projectName": "First_App",
-        "projectPath": "D:\\Users\\Daniele\\Desktop\\Homework\\Day 007\\Back-End\\First_App\\First_App\\First_App.csproj",
+        "projectUniqueName": "D:\\Users\\Daniele\\Desktop\\Homework\\Day 008\\Back-End\\Esercizio\\Esercizio\\Esercizio.csproj",
+        "projectName": "Esercizio",
+        "projectPath": "D:\\Users\\Daniele\\Desktop\\Homework\\Day 008\\Back-End\\Esercizio\\Esercizio\\Esercizio.csproj",
         "packagesPath": "C:\\Users\\Daniele\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Daniele\\Desktop\\Homework\\Day 007\\Back-End\\First_App\\First_App\\obj\\",
+        "outputPath": "D:\\Users\\Daniele\\Desktop\\Homework\\Day 008\\Back-End\\Esercizio\\Esercizio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniele\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
