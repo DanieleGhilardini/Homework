@@ -1,0 +1,15 @@
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\obj\Debug\net7.0\First_App.csproj.AssemblyReference.cache
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\obj\Debug\net7.0\First_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\obj\Debug\net7.0\First_App.AssemblyInfoInputs.cache
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\obj\Debug\net7.0\First_App.AssemblyInfo.cs
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\obj\Debug\net7.0\First_App.csproj.CoreCompileInputs.cache
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\bin\Debug\net7.0\First_App.exe
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\bin\Debug\net7.0\First_App.deps.json
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\bin\Debug\net7.0\First_App.runtimeconfig.json
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\bin\Debug\net7.0\First_App.dll
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\bin\Debug\net7.0\First_App.pdb
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\obj\Debug\net7.0\First_App.dll
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\obj\Debug\net7.0\refint\First_App.dll
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\obj\Debug\net7.0\First_App.pdb
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\obj\Debug\net7.0\First_App.genruntimeconfig.cache
+C:\Users\Daniele Ghilardini\Documents\GitHub\Homework\Day 007\Back-End\First_App\First_App\obj\Debug\net7.0\ref\First_App.dll
