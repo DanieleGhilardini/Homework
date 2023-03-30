@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p5Fxc+qj3weXqnEVWU/63rEABD4/KTGNGFwZ+bhGhuXUOsY3Q4xGaYr7fEL0OYvl6usdcJuiHAO/st+5jOK9Tw==",
+  "dgSpecHash": "5iioixZrryUqPVeqXSrNjOcpUqQ6/UnMMHhnVnTjS6vuy9eufXXbpcueRJBG+wEbIPM7aH4jm2FvyXKBlgpvbg==",
   "success": true,
   "projectFilePath": "D:\\Users\\Daniele\\Desktop\\Homework\\Day 008\\Back-End\\Esercizio\\Esercizio\\Esercizio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Daniele\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
