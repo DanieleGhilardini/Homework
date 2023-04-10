@@ -1,0 +1,1 @@
+Ciao Daniele! Le basi di manipolazione del DOM e delle chiamate http ci sono, ma confido che tu possa fare di più!
