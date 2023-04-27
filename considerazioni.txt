@@ -61,3 +61,25 @@ Con 600px siamo nel mondo dei tablet piccoli o smartphone larghi.
 
 Graficamente hai fatto un'ottimo lavoro! L'aspetto è praticamente identico.
 Continua a lavorarci per migliorare la leggibilità e la struttura sia del css che dell'html 
+
+
+Ciao Daniele. Congratulazioni per aver completato il corso!
+Hai fatto un sacco di progressi in così poco tempo. 
+Anche se non sei riuscito a stare al passo con gli esercizi bisogna riconoscere quanto tu abbia imparato.
+Come ti avevo detto, tutte queste nozioni che ho cercato di passarvi in un mese io le ho apprese in 4 anni.
+Ho speso 1 anno e mezzo di formazione part-time prima di fare di una parte di queste conoscenze una professione, quindi ti direi di non preoccuparti troppo delle tempistiche del tuo apprendimento.
+Ti assicuro che, visti i tuoi esercizi e il tuo atteggiamento, sei in grado di farlo anche tu, se vuoi. Questa porta è sempre aperta. 
+
+Ti lascio alcuni consigli di routine:
+
+Ricorda di pulire il codice e rifattorizzare prima di fare git push: 
+ - crea nuovi componenti che rappresentano elementi logici dell'applicazione a cui ti sembra logico dare un nome (es. Todo-list, todo-item).
+ - rimuovi componenti che non sembrano avere più un senso logico, e il cui nome non significa niente.
+ - scomponi le funzioni troppo lunghe e con troppi parametri. Una funzione deve fare una sola cosa...
+ - rinomina funzioni e variabili se pensi che il loro nome può migliorare ed essere più esplicito.
+ - semplifica le logiche con i boolean il più possibile, meno if (e meno if innestati) ci sono, e più il codice è facile da leggere.
+ etc. etc.
+
+Cerca di rendere il codice leggibile, studia nuove tecniche per farlo. Questo è un lavoro di squadra.
+Allarga la tua comprensione della programmazione imparando nuovi linguaggi e nuove tecnologie e nuovi ambiti. 
+Sperimenta in continuazione, anche a costo di sbagliare. C'è sempre git per rimediare agli errori.
